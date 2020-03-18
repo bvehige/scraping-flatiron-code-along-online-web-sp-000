@@ -14,6 +14,11 @@ class Scraper
     #end
   end
   
+  def get_courses
+    self.get_page.css(".post")
+  end
+  
+  
   def print_courses
    if course.title && course.title != ""
         puts "Title: #{course.title}"
