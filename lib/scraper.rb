@@ -16,14 +16,14 @@ class Scraper
     end
   end
   
-  #def print_courses
-   # if course.title && course.title != ""
-   #     puts "Title: #{course.title}"
-    #    puts "  Schedule: #{course.schedule}"
-     #   puts "  Description: #{course.description}"
-      #end
-    #end
-  #end
+  def print_courses
+   if course.title && course.title != ""
+        puts "Title: #{course.title}"
+        puts "  Schedule: #{course.schedule}"
+        puts "  Description: #{course.description}"
+      end
+    end
+  end
   
 end
 
