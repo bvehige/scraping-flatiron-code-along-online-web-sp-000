@@ -18,6 +18,9 @@ class Scraper
     self.get_page.css(".post")
   end
   
+  def make_courses
+    self.get_courses.each do |post|
+      
   
   def print_courses
    if course.title && course.title != ""
